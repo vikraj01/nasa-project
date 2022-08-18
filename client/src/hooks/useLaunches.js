@@ -51,7 +51,7 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
     const response = await httpAbortLaunch(id);
 
     // TODO: Set success based on response.
-    const success = false;
+    const success = response.ok;
     if (success) {
       getLaunches();
       onAbortSound();
@@ -69,3 +69,6 @@ function useLaunches(onSuccessSound, onAbortSound, onFailureSound) {
 }
 
 export default useLaunches;
+
+
+// api - key https://api.nasa.gov/planetary/apod?api_key=F3g3TguGBdtJN833ZGyM6AMW1DKWui6mDspPnUML
