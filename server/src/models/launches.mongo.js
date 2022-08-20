@@ -2,7 +2,7 @@ const {Schema, model} = require('mongoose')
 
 
 const launchSchema = new Schema({
-    fligtNumber:{
+    flightNumber:{
         type:Number,
         required:true,
     },
