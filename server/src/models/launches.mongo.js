@@ -20,7 +20,6 @@ const launchSchema = new Schema({
     },
     target:{
         type:String,
-        required:true
     },
     customers:[
         String
