@@ -41,18 +41,16 @@ Live Demo: https://nasa-spacex-project.herokuapp.com/
 Clone the repo and install the dependencies.
 
 ```bash
-git clone https://github.com/contentful/the-example-app.nodejs.git
-cd the-example-app.nodejs
+git clone https://github.com/vikraj01/nasa-project.git
+cd nasa-project
 ```
 
 ```bash
 npm install
 ```
-
-## Steps for read-only access
-
-To start the express server, run the following
-
+run the project
 ```bash
-npm run start:dev
+npm run server
 ```
+
+
